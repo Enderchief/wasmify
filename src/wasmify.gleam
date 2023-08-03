@@ -1,4 +1,5 @@
 import wasmify/types
+@target(javascript)
 import gleam/javascript/promise.{Promise}
 
 /// Asynchronous load *.wasm as a Uint8Array/Buffer
